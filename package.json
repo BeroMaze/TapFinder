@@ -1,0 +1,11 @@
+{
+  "name": "tapfinder",
+  "version": "1.0.0",
+  "description": "Beer Tap finder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BeroMaze",
+  "license": "ISC"
+}
