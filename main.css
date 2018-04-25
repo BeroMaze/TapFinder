@@ -1,0 +1,85 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-image: url("./images/tapsBackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:  top;
+  height: 100px;
+  width: auto;
+  color: white;
+}
+
+#headerTitle {
+  font-size: 3em;
+  font-family: 'Permanent Marker', cursive;
+  margin: auto;
+  margin-left: 5%;
+}
+
+#menuButton{
+  width: 5%;
+  height: 35%;
+  margin: auto;
+  margin-right: 10%;
+
+}
+
+#selectedBrewery{
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 700px;
+}
+
+#breweryInfo {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: 200px;
+}
+
+#BITop{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: auto;
+  height: 100px;
+  margin-bottom: 1%;
+}
+
+#selectedBreweryLogo{
+    width: 100px;
+}
+
+#BIBottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: auto;
+  height: 100px;
+}
+
+.tappedBeerInfo {
+  width: 90%;
+  border: solid;
+  background-color: rgba(0,0,0,.8);
+  color: white;
+  margin: auto;
+  padding: 5px;
+}
+.tappedBeerInfo h2{
+  margin: auto;
+  text-align: center;
+}
+.beerUpperInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.beerMidInfo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}

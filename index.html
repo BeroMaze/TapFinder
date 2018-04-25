@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tapped Beers</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <header>
+      <h1 id="headerTitle">Tapped Beers</h1>
+      <img id="menuButton" src="./images/beerMenu.png" alt="">
+    </header>
+    <section id="selectedBrewery">
+      <article class="breweryInfo">
+        <div id="BITop">
+          <img id="selectedBreweryLogo" src="images/MKELogo.png" alt="">
+          <h1 id="selectedBreweryName">Milwaukee Brewing Company</h1>
+        </div>
+        <div id="BIBottom">
+          <a href="tel:(414) 226-2337">(414) 226-2337</a>
+          <a href="http://maps.google.com/maps?q=613+S+2nd+St,+Milwaukee,+WI">613 S 2nd St, Milwaukee, WI</a>
+        </div>
+      </article>
+      <article id="selectedBreweryBeers">
+          <div class="tappedBeerInfo">
+            <h2>Hop Freak</h2>
+            <div class="beerUpperInfo">
+              <h4>Status : <span>Always</span></h4>
+              <h4>ABV : <span>8.7%</span></h4>
+              <h4>IBU : <span>80</span></h4>
+            </div>
+            <div class="beerMidInfo">
+              <h4>Hops : <span>Centenial & Cascade</span></h4>
+              <h4>Malts : <span>Two Row, Barley Malt, Munich, Caramel</span></h4>
+            </div>
+            <p>A collaboration with Milwaukee’s own Rishi Tea, this IPA is infused with Organic Jasmine Tea, lending it a sweet, floral aroma. Strong citrus notes come from the generous amount of American hops. Hop Freak was born big and bitter but a sizeable malt bill adds balance to this beast.</p>
+          </div>
+      </article>
+    </section>
+
+    <script src="BreweryDesplay.js"></script>
+  </body>
+</html>

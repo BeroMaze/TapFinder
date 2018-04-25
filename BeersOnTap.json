@@ -1,0 +1,36 @@
+[{
+  "breweryName" : "Milwaukee Brewing Company",
+  "location" : "613 S 2nd St, Milwaukee, WI",
+  "phone number": "(414) 226-2337",
+  "logo" : "images/MKELogo.png",
+  "TapList" : [
+    {
+  "beerName" : "MKE IPA",
+  "ABV" : "5.5%",
+  "IBU" : "60",
+  "hops" : "Citra & Mosaic",
+  "stats" : "Always",
+  "molts" : "NA",
+  "desc" : "Brewed with a light malt profile, this IPA lets the hops shine. Five different hops are used to create a well-balanced IPA which focuses on the hipster’s hops, Citra and Mosaic. The late addition of these hops gives the IPA a juicy citrus aroma while the light body leaves a crisp dry taste. This IPA is an approachable IPA with a juicy bitter flavor that appeals to all palates."
+},
+{
+"beerName" : "Hop Freak",
+"ABV" : "8.7%",
+"IBU" : "80",
+"hops" : "Centenial & Cascade",
+"malts" : "Two Row, Barley Malt, Munich, Caramel",
+"stats" : "Always",
+"desc" : "A collaboration with Milwaukee’s own Rishi Tea, this IPA is infused with Organic Jasmine Tea, lending it a sweet, floral aroma. Strong citrus notes come from the generous amount of American hops. Hop Freak was born big and bitter but a sizeable malt bill adds balance to this beast."
+},
+{
+"beerName" : "O-Gii",
+"ABV" : "9.2%",
+"IBU" : "24.5",
+"hops" : "Columbus, Saaz",
+"malts" : "Pilsner, Wheat, Oats",
+"stats" : "Always",
+"desc" : "Created by our brewer Kurt Mayes, O-Gii is a collaboration with Milwaukee’s own Rishi Tea, infusing Asian character to this monster wheat beer. The name is our nod to the brewing abbreviation OG, which defines the potential for alcohol level prior to fermentation. Enjoy this monster fusion of balance and aggression."
+}
+]
+}
+]
