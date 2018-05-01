@@ -1,0 +1,33 @@
+<article id="{{breweryID}}" class="breweryInfo">
+  <div id="BITop">
+    <img id="selectedBreweryLogo" src="{{logo}}" alt="">
+    <h1 id="selectedBreweryName">{{breweryName}}</h1>
+  </div>
+  <div id="BIBottom">
+    <a href="tel:{{phoneNumber}}">{{phoneNumber}}</a>
+    <a href="http://maps.google.com/maps?q={{locationMap}}">{{location}}</a>
+    <a href="{{website}}">Website</a>
+  </div>
+</article>
+{{#each tapList}}
+  <article id="selectedBreweryBeers">
+      <div class="tappedBeerInfo">
+        <h2>{{beerName}}</h2>
+        <div class="beerUpperInfo">
+          <h4>Status : <span>{{stats}}</span></h4>
+          <h4>ABV : <span>{{ABV}}</span></h4>
+          <h4>IBU : <span>{{IBU}}</span></h4>
+        </div>
+        <div class="beerMidInfo">
+          <!-- {{#if hops}} -->
+            <h4>Hops : <span>{{hops}}</span></h4>
+          <!-- {{/if}} -->
+          <!-- {{#if malts}} -->
+            <h4>Malts : <span>{{malts}}</span></h4>
+          <!-- {{/if}} -->
+        </div>
+        <!-- {{#if desc}} -->
+          <p>{{desc}}</p>
+          <!-- {{/if}} -->
+  </article>
+{{/each}}

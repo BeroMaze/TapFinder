@@ -1,16 +1,19 @@
 [{
+  "breweryID" :"MKE",
   "breweryName" : "Milwaukee Brewing Company",
   "location" : "613 S 2nd St, Milwaukee, WI",
-  "phone number": "(414) 226-2337",
+  "locationMap" : "613+S+2nd+St,+Milwaukee,+WI",
+  "phoneNumber": "(414) 226-2337",
   "logo" : "images/MKELogo.png",
-  "TapList" : [
+  "website" : "https://mkebrewing.com",
+  "tapList" : [
     {
   "beerName" : "MKE IPA",
   "ABV" : "5.5%",
   "IBU" : "60",
   "hops" : "Citra & Mosaic",
   "stats" : "Always",
-  "molts" : "NA",
+  "malts" : "",
   "desc" : "Brewed with a light malt profile, this IPA lets the hops shine. Five different hops are used to create a well-balanced IPA which focuses on the hipster’s hops, Citra and Mosaic. The late addition of these hops gives the IPA a juicy citrus aroma while the light body leaves a crisp dry taste. This IPA is an approachable IPA with a juicy bitter flavor that appeals to all palates."
 },
 {

@@ -27,10 +27,10 @@ header {
 }
 
 #selectedBrewery{
-  display: flex;
+  display: none;
   flex-direction: column;
   width: auto;
-  height: 700px;
+  height: auto;
 }
 
 #breweryInfo {
